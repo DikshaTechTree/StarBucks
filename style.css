@@ -1,0 +1,977 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin:0;
+}
+
+@media screen and (max-width:450px){
+  body{
+    background-color:white;
+  }
+}
+.navbar{
+  position:fixed;
+  width:100%;
+  z-index:1;
+}
+@media screen and (max-width:500px){
+  .horizontal{
+      display:none;
+  }
+  #blank{
+      display:none;
+  }
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0.45rem;
+    overflow: hidden;
+    background-color: white;
+    padding-left: 5.4rem;
+    
+}
+
+#nav{
+    float: left;
+    list-style-type: none;
+}
+
+#nav1{
+  float: left;
+}
+
+li img {
+    width: 65px;
+    padding:0.5rem;
+    padding-top:0.4em;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 4rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif !important;
+    padding-bottom: 2rem;
+}
+
+
+li form {
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    border-radius: 5rem;
+    padding-left: 10rem;
+    border: none;
+    width: 120%;
+}
+
+input[type=text] {
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    background-color: #fff;
+    background-clip: padding-box;
+    line-height: 1.5;
+    width: 100%;
+    color: lightgrey;
+    padding-left: 1.2em;
+}
+
+
+#login img {
+    width: 60px;
+    height: 60px;
+}
+#blank{
+  padding:2.5em;
+}
+@media (min-width:500px) and (max-width:900px)
+{
+  #blank{
+    padding:4.5em;
+  }
+}
+.vertical .bar{
+  background-color:white ;
+}
+
+#nav2{
+  list-style-type: none;
+    padding-top: 1.5rem;
+    display:flex;
+    flex-direction: row-reverse;
+    padding-right:2rem;
+    margin:0;
+}
+
+#nav2 #link{
+  color:#1e3932;
+  font-family:Arial, Helvetica, sans-serif;
+  display:block;
+  padding: 0.5em;
+}
+@media (min-width:500px) and (max-width:5000px){
+
+  .vertical .bar{
+      display:none;
+  }
+  #reward{
+    position: relative;
+    padding:0.5em;
+    width:100%;
+  }
+  #reward h5{
+    font-size:12px;
+  }
+  #reward button{
+    font-size: 10px;
+    
+  }
+
+
+}
+#reward {
+    background-color: #1e3932;
+    padding-top: 15rem;
+    padding: 1rem;
+    height: 100%;
+    border-radius: 0;
+    padding-bottom: 1rem;
+    width:100%;
+}
+@media screen and (max-width:500px)
+{
+  #reward{
+    position: relative;
+    padding:0.5em;
+    width:100%;
+    padding:1.1rem;
+  }
+  #reward h5{
+    font-size:12px;
+  }
+  #reward button{
+    font-size: 10px;
+  }
+
+}
+@media (min-width:500px) and (max-width:900px)
+{
+  #reward{
+    position: relative;
+    padding:0.5em;
+    width:100%;
+    padding:1.1rem;
+  }
+  #reward h5{
+    font-size:12px;
+  }
+  #reward button{
+    font-size: 10px;
+  }
+
+}
+#reward h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+#reward #button {
+    padding-right: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+}
+
+#reward button {
+    font-size: 15px;
+    background-color: transparent;
+    width: 96px;
+    height: 32px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    background-color: white;
+}
+
+.flex-container>div {
+
+    /*margin: 10px;*/
+    padding: 20px;
+    font-size: 30px;
+}
+
+#curations {
+    padding: 0.5rem;
+}
+
+#curations h1 {
+    padding-left: 5.5rem;
+    color: #1e3932;
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:500px){
+  #curations h1{
+    padding-left: 0.8rem;
+    font-size: 30px;
+  }
+  #reward h5{
+    padding-left: 1rem;
+  }
+  #reward #button{
+    padding-right: 0;
+  }
+}
+@media (min-width:500px) and (max-width:900px){
+  #curations h1{
+    padding-left: 0.8rem;
+    font-size: 30px;
+  }
+  #reward h5{
+    padding-left: 1rem;
+  }
+  #reward #button{
+    padding-right: 0;
+  }
+}
+#coffee {
+  padding:0rem;
+    padding-left: 3.5rem;
+    column-gap: 1.5rem;
+    padding-right: 3.5rem;
+}
+@media screen and (max-width:500px){
+  #coffee{
+    overflow: scroll;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+}
+@media (min-width:500px) and (max-width:900px){
+  #coffee{
+    overflow: scroll;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+}
+#coffee img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    background-color: green;
+    transition:0.3s;
+}
+#coffee #img01{
+    width:500px;
+    height:500px;
+
+}
+#coffee img:hover{
+    opacity: 0.7;
+}
+#coffee #font {
+    font-size: large;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#font:hover,#font:focus{
+    cursor:pointer;
+    color:green;
+    text-decoration: none;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  #barista {
+    background-color: #edebe9;
+    padding-left: 3rem;
+    padding: 2rem;
+    padding-top: 0;
+
+}
+
+#barista #view {
+    padding: 0.25rem;
+    color: #1e3932;
+    font-size: 1.5rem;
+    padding-left:6rem;
+}
+
+@media screen and (max-width:500px){
+  #barista #view{
+    padding: 1.5rem;
+    color: #1e3932;
+    font-size: 20px;
+   
+  }
+}
+@media (min-width:500px) and (max-width:900px){
+  #barista #view{
+    padding: 1.5rem;
+    color: #1e3932;
+    font-size: 20px;
+   
+  }
+}
+#barista #cream{
+  padding:3rem;
+  padding-left:5rem;
+  padding-right: 5rem;
+}
+@media screen and (max-width:500px){
+  #barista #cream{
+   padding: 0.05rem;
+   padding-left: 1.5rem;
+   display:block;
+  }
+}
+@media (min-width:500px) and (max-width:900px){
+  #barista #cream{
+   padding: 0.05rem;
+   padding-left: 1.5rem;
+   display:flex;
+   overflow:scroll;
+  }
+}
+#barista button {
+    border: none;
+    background-color: transparent;
+    color: #00754a;
+    font-size: 1rem;
+    padding-right: 6rem;
+    cursor: pointer;
+}
+@media screen and (max-width:500px){
+  #barista button{
+    padding-right:0;
+    padding-top: 0.7rem;
+  }
+}
+@media (min-width:500px) and (max-width:900px){
+  #barista button{
+    padding-right:0;
+    padding-top: 0.7rem;
+  }
+}
+#barista #cards {
+    background-color: #edebe9;
+    padding-left:3rem;
+}
+
+#barista #cards #cream #border {
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    ;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+@media screen and (max-width:500px){
+  .column{
+    float:none;
+    padding:0;
+  }
+}
+@media (min-width:500px) and (max-width:900px){
+  .column{
+    width:45%;
+  }
+}
+.row {
+    margin: 0 -5px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height:180px;
+    border-radius:15px;
+  
+}
+@media screen and (max-width:500px){
+  .card {
+    width:330px;
+    height:180px;
+    margin-bottom: 20px;
+    
+  }
+}
+@media (min-width:500px) and (max-width:900px){
+  .card {
+    width:275px;
+    height:190px;
+    margin-bottom: 20px;
+  }
+}
+#barista #cream #dark #choco img{
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+}
+#barista #cream #dark #choco img:hover{
+  filter:grayscale(100%);
+}
+@media screen and (max-width:500px){
+  #barista #cream #dark #choco img{
+    width:100px;
+    height: 100px;
+  }
+}
+#barista #cream #dark #choco #veg {
+    width:30px;
+    height:30px;
+    border-radius:0;
+}
+
+#barista #cream #dark #choco button{
+    background-color: #00754a;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+    color:#fff;
+    text-align:center;
+    border-radius :20px;
+    font-size:17px;
+    padding-right: 0;
+    padding: 0.5rem;
+    float:right;
+}
+
+
+.mySlides {display: none}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 0.25rem;
+  }
+  .slideshow-container h2{
+    color:#1e3932;
+    padding:0.25rem;
+    font-size:30px;
+
+  }
+
+  .slideshow-container .mySlides img{
+    border-radius:20px;
+    width:100%;
+    height:100%;
+    z-index:-1;
+  }
+  @media screen and (max-width:500px){
+    .slideshow-container .mySlides img{
+      width:100%;
+      height:200px;
+    }
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
+  #try{
+    width:20%;
+    border-radius:1rem;
+    padding:0.5rem;
+    background-color: transparent;
+    border:1px solid lightgrey;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#00754a;
+    font-size:15px;
+}
+
+@media screen and (max-width:500px){
+  #try{
+    width:30%;
+  }
+}
+
+#slide{
+  padding:1rem;
+  padding-left: 6rem;
+  font-size: larger;
+  padding-right: 5.5rem;
+}
+@media screen and (max-width:500px){
+  #slide{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+}
+@media (min-width:500px) and (max-width:900px){
+  #slide{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+}
+#slider{
+  padding:0rem;
+  padding-bottom: 2rem;
+}
+#foot{
+  display:flex;
+  left:0;
+  bottom:0;
+  height:25%;
+  width:100%;
+  background-color:#0e382c;
+  color:white;
+  padding: 3em 2em 2em;
+  padding-top:0.75rem;
+}
+@media(min-width:500px) and (max-width:900px){
+  #foot{
+    overflow:scroll;
+  }
+}
+#star {
+  display: flex;
+  background-color: transparent;
+  column-gap: 2rem;
+}
+
+#star #tm{
+padding: 2px;
+padding-left: 4rem;
+padding-top: 3rem;
+}
+
+#star #tm img{
+  width:90px;
+  height:90px;
+}
+
+#star #social{
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#pen{
+  padding-bottom:4rem;
+  padding-top: 1.2rem;
+}
+#pen #social{
+  font-size:25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#pen #social1{
+  padding:0.5rem;
+}
+#google{
+  padding-top: 3rem;
+}
+
+#about{
+  font-size:25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#about #aboutus {
+  list-style-type: none;
+  background-color: transparent;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0;
+}
+
+#about #aboutus #our{
+  padding:0.5rem;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#res{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#res #aboutus{
+  list-style-type: none;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left;
+  padding:0;
+}
+
+#res #aboutus #community{
+  padding:0.5rem;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#quick{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#quick #aboutus{
+  list-style-type: none;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0;
+}
+
+#quick #aboutus #careers{
+  padding:0.5rem;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer1{
+  width:100%;
+  height:25%;
+  background-color:#0e382c;
+  padding-left:2rem;
+}
+#footer2{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:2rem;
+}
+@media screen and (max-width:500px){
+  #foot{
+      display:none;
+  }
+}
+
+#space{
+  padding:1rem;
+  font-size: 18px;
+}
+#space1{
+  padding:1rem;
+}
+
+@media (min-width:500px) and (max-width:5000px){
+  #footer1{
+      display:none;
+  }
+}
+
+#barista {
+  background-color: #edebe9;
+  padding-left: 3rem;
+  padding: 0rem;
+  padding-top: 0;
+
+}
+
+
+
+@media screen and (max-width:500px){
+#barista #view{
+  padding: 1.5rem;
+  color: #1e3932;
+  font-size: 20px;
+ 
+}
+}
+#barist #cream{
+padding:0.5rem;
+padding-left: 5rem;
+padding-bottom: 3rem;
+}
+@media screen and (max-width:500px){
+#barist #cream{
+ padding: 0.05rem;
+
+}
+}
+@media (min-width:500px) and (max-width:900px){
+  #barist #cream{
+   padding: 0.05rem;
+  padding-bottom:2rem;
+  }
+  }
+  
+
+#barist #card1 {
+  background-color: #edebe9;
+  padding-left:3rem;
+}
+
+#barist #card1 #cream #border {
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+  ;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 4px;
+ 
+}
+@media screen and (max-width:500px){
+.column1{
+  padding:0px 6px;
+width:100%;
+}
+}
+
+.row{
+  margin: 0 -5px;
+  display:flex;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height:185px;
+  border-radius:15px;
+  width:295px;
+}
+@media screen and (max-width:500px){
+.card1 {
+  width:330px;
+  height:180px;
+  margin-bottom: 20px;
+}
+}
+
+#barist #cream #dark #choco img{
+  width:100px;
+  height:100px;
+  border-radius: 10px;
+}
+@media screen and (max-width:500px){
+#barist #cream #dark #choco img{
+  width:100px;
+  height: 100px;
+}
+}
+#barist #cream #dark #choco #veg {
+  width:30px;
+  height:30px;
+  border-radius:0;
+}
+
+#barist #cream #dark #choco button{
+  background-color: #00754a;
+  box-shadow: 0 4px 15px #a3a3a3ad;
+  color:#fff;
+  text-align:center;
+  border-radius :20px;
+  font-size:17px;
+  padding-right: 0;
+  padding: 0.5rem;
+  float:right;
+  border:1px solid #a3a3a3ad;
+}
+
+ @media screen and (max-width:500px){
+  #barist{
+      overflow: scroll;
+      padding-left: 1.5rem;
+  }
+ }
+ @media (min-width:500px) and (max-width:900px){
+  #barist{
+      overflow: scroll;
+      padding-left: 1.5rem;
+  }
+ }
+
+ #barist #cream #dark #choco #box h4{
+  font-size: 18px;
+ }
+
+ #barist #cream #dark .card{
+  width:300px;
+  height:205px;
+ }
+
+ #barist #cream #dark #choco #box p{
+  font-size:15px;
+ }
+
+#barist{
+  background-color: #edebe9;
+}

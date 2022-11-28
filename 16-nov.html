@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StarBucks</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul class="horizontal">
+            <li id="nav">
+                <img src="https://www.starbucks.in/assets/icon/logo.png">
+            </li>
+            <li id="nav1"><a href="default.asp">Home</a></li>
+            <li id="nav1"><a href="news.asp">Gift</a></li>
+            <li id="nav1"><a href="contact.asp">Order</a></li>
+            <li id="nav1"><a href="about.asp">Pay</a></li>
+            <li id="nav1"><a href="about.asp">Store</a></li>
+            <li id="nav1">
+                <form>
+                    <input type="text" id="fname" name="fname" placeholder="Looking for something specific?">
+                </form>
+            </li>
+        </ul>
+    </div>
+
+    <div id="blank" class="grid-container">
+    </div>
+    <div class="vertical">
+        <ul class="bar">
+            <li id="nav">
+                <img src="https://www.starbucks.in/assets/icon/logo.png">
+            </li>
+            <li id="nav2">
+                <button id="display" onclick="Function2()">&#9552;</button>
+            </li>
+        </ul>
+        <div id="cross">
+            <ul class="bar">
+                <li id="nav2"><a id="link" href="#home">Home</a></li>
+                <li id="nav2"><a id="link" href="#news">Gift</a></li>
+                <li id="nav2"><a id="link" href="#contact">Order</a></li>
+                <li id="nav2"><a id="link" href="#about">Pay</a></li>
+                <li id="nav2"><a id="link" href="#about">Store</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+    <div id="reward" class="grid-container">
+        <div id="button">
+            <h5>A world of rewards awaits you! Sign Up now.
+                <a href="https://www.starbucks.in/rewards" target="_blank"><button style="float:right">Know
+                        More</button></a>
+            </h5>
+        </div>
+    </div>
+    <div id="curations" class="container">
+        <h1>Handcrafted Curations</h1>
+        <div id="coffee" class="flex-container">
+            <div id="font"><a href="#"><img id="myImg"
+                        src="https://tsbprods3.azureedge.net/Category/Small/Bestseller.jpg"></a>BestSeller
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+            </div>
+            <div id="font"><a href="#"><img id="myImg"
+                        src="https://tsbprods3.azureedge.net/Category/Small/Drinks.jpg"></a>Drinks
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div id="font"><a href="#"><img id="myImg"
+                        src="https://tsbprods3.azureedge.net/Category/Small/Food.jpg"></a>Food
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div id="font"><a href="#"><img id="myImg"
+                        src="https://tsbprods3.azureedge.net/Category/Small/Merchandise.jpg"></a>Merchandise
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div id="font"><a href="#"><img id="myImg"
+                        src="https://tsbprods3.azureedge.net/Category/Small/CoffeeAtHome.jpg"></a>Coffee
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div id="font"><a href="#"><img id="myImg"
+                        src="https://tsbprods3.azureedge.net/Category/Small/ReadyToEat.jpg"></a>Ready 2 Eat
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="barista" class="grid-container">
+        <div id="view">
+            <h2>Barista Recommends
+                <a href="https://www.starbucks.in/ordering" target="_blank"><button style="float:right">View
+                        More</button></a>
+            </h2>
+        </div>
+        <div id="cream" class="row">
+            <div id="dark" class="column">
+                <div id="choco" class="card">
+                    <span style="float:left"><img src="https://tsbprods3.azureedge.net/Category/Small/Bestseller.jpg">
+                        <img id="veg" src="https://www.starbucks.in/assets/icon/veg.svg"></span>
+                    <div id="box" class="container">
+                        <h4><b> Java Chip Frappuccino</b></h4>
+                        <p>Rs 357.51</p>
+                        <button>Add Item</button>
+                    </div>
+                </div>
+            </div>
+            <div id="dark" class="column">
+                <div id="choco" class="card">
+                    <span style="float:left"><img src="https://tsbprods3.azureedge.net/Items/Small/103515.jpg">
+                        <img id="veg" src="https://www.starbucks.in/assets/icon/veg.svg"></span>
+                    <div id="box" class="container">
+                        <h4><b>Double Chip Frappuccino</b></h4>
+                        <p>Rs 357.51</p>
+                        <button>Add Item</button>
+                    </div>
+                </div>
+            </div>
+            <div id="dark" class="column">
+                <div id="choco" class="card">
+                    <span style="float:left"><img src="https://tsbprods3.azureedge.net/Items/Small/100419.jpg">
+                        <img id="veg" src="https://www.starbucks.in/assets/icon/veg.svg"></span>
+                    <div id="box" class="container">
+                        <h4><b>Vanilla Cream Cold Brew</b></h4>
+                        <p>Rs 383.25</p>
+                        <button>Add Item</button>
+                    </div>
+                </div>
+            </div>
+            <div id="dark" class="column">
+                <div id="choco" class="card">
+                    <span style="float:left"><img src="https://tsbprods3.azureedge.net/Items/Small/100433.jpg">
+                        <img id="veg" src="https://www.starbucks.in/assets/icon/veg.svg"></span>
+                    <div id="box" class="container">
+                        <h4><b>Signature Hot Chocolate</b></h4>
+                        <p>Rs 278.25</p>
+                        <button>Add Item</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="slide" class="grid-container">
+        <h2>Slideshow
+            <button id="try" style="float:right" onclick="myFunction()">Open</button>
+        </h2>
+    </div>
+    <div id="slider" class="slideshow-container">
+        <div id="myDIV">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img
+                    src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Coffeculture_Blog_Web_Banner_2_X_8b72db6546.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4aH5jc1WZcZlMyMP_li_a_LHa2COTztp1w&usqp=CAU">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://www.nestleprofessionalmena.com/sites/default/files/banners/MainBanner_1288x411_1.jpg">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="barista" class="grid-container">
+        <div id="view">
+            <h2>Latest Offerings
+                <a href="https://www.starbucks.in/ordering" target="_blank"><button style="float:right">View
+                        More</button></a>
+            </h2>
+        </div>
+    </div>
+        <div id="barist" class="flex-container justify-center">
+        <div id="cream" class="row">
+            <div id="dark" class="column1">
+                <div id="choco" class="card1">
+                    <span style="float:left"><img src="https://tsbprods3.azureedge.net/Category/Small/Bestseller.jpg">
+                        <img id="veg" src="https://www.starbucks.in/assets/icon/veg.svg"></span>
+                    <div id="box" class="container">
+                        <h4><b> Java Chip Frappuccino</b></h4>
+                        <p>Rs 357.51</p>
+                        <button>Add Item</button>
+                    </div>
+                </div>
+            </div>
+            <div id="dark" class="column1">
+                <div id="choco" class="card1">
+                    <span style="float:left"><img src="https://tsbprods3.azureedge.net/Items/Small/103515.jpg">
+                        <img id="veg" src="https://www.starbucks.in/assets/icon/veg.svg"></span>
+                    <div id="box" class="container">
+                        <h4><b>Double Chip Frappuccino</b></h4>
+                        <p>Rs 357.51</p>
+                        <button>Add Item</button>
+                    </div>
+                </div>
+            </div>
+            <div id="dark" class="column1">
+                <div id="choco" class="card1">
+                    <span style="float:left"><img src="https://tsbprods3.azureedge.net/Items/Small/100419.jpg">
+                        <img id="veg" src="https://www.starbucks.in/assets/icon/veg.svg"></span>
+                    <div id="box" class="container">
+                        <h4><b>Vanilla Cream Cold Brew</b></h4>
+                        <p>Rs 383.25</p>
+                        <button>Add Item</button>
+                    </div>
+                </div>
+            </div>
+            <div id="dark" class="column1">
+                <div id="choco" class="card1">
+                    <span style="float:left"><img src="https://tsbprods3.azureedge.net/Items/Small/100433.jpg">
+                        <img id="veg" src="https://www.starbucks.in/assets/icon/veg.svg"></span>
+                    <div id="box" class="container">
+                        <h4><b>Signature Hot Chocolate</b></h4>
+                        <p>Rs 278.25</p>
+                        <button>Add Item</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="foot" class="footer">
+        <div id="star" class="flex-container">
+            <div id="tm" class="grid-container"><img src="https://www.starbucks.in/assets/icon/logo.png"></div>
+            <div id="about" class="grid-container">
+                <p>About Us
+                <ol id="aboutus">
+                    <li id="our">Our Heritage</li>
+                    <li id="our">
+                        Our Company
+                    </li>
+                    <li id="our">
+                        Coffeehouse
+                    </li>
+                </ol>
+                </p>
+            </div>
+            <div id="res" class="grid-container">
+                <p>Responsibility
+                <ol id="aboutus">
+                    <li id="community">Community</li>
+                    <li id="community">
+                        Ethical Sourcing
+                    </li>
+                    <li id="community">
+                        Environment
+                    </li>
+                    <li id="community">
+                        Diversity
+                    </li>
+                </ol>
+                </p>
+            </div>
+            <div id="quick" class="grid-container">
+                <p>Quick Links
+                <ol id="aboutus">
+                    <li id="careers">Careers</li>
+                    <li id="careers">
+                        Season's Gifting
+                    </li>
+                    <li id="careers">
+                        FAQs
+                    </li>
+                    <li id="careers">
+                        Customer Service
+                    </li>
+                    <li id="careers">
+                        Delivery
+                    </li>
+                </ol>
+                </p>
+            </div>
+
+            <div id="pen" class="grid-container">
+                <p id="social">SOCIAL MEDIA</p>
+                <img id="social1" src="https://www.starbucks.in/assets/icon/instagram.svg">
+                <img id="social1" src="https://www.starbucks.in/assets/icon/facebook.svg">
+                <img id="social1" src="https://www.starbucks.in/assets/icon/twitter.svg">
+            </div>
+            <div id="google" class="grid-container">
+                <img src="https://www.starbucks.in/assets/images/appstoreiOS.png"><br>
+                <img src="https://www.starbucks.in/assets/images/appstoreAndroid.png">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer1" class="footer">
+        <div id="footer2" class="grid-container">
+            <div id="space1"><img src="https://www.starbucks.in/assets/icon/logo.png"></div>
+            <div id="space">About us</div>
+            <div id="space">Responsibility</div>
+            <div id="space">Quick Links</div>
+            <div id="space">Social Media</div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
